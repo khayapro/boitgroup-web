@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Timber</title>
+	<title>BoitTM</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Web, Designer, Developer, Freelancer">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
 	<link rel='stylesheet' id='camera-css'  href='css/camera.css' type='text/css' media='all'>
@@ -65,7 +66,7 @@
 								<li class="active" ><a href="#home">Home</a></li>
 								<li><a href="#speakers">Speakers</a></li>
 								<li><a href="#celebrities">Celebrities</a></li>
-								<li><a href="#celebrities">Models</a></li>
+								<li><a href="#models">Models</a></li>
 								<li><a href="#casting">Casting</a></li>
 								<li><a href="#promoters">Promoters</a></li>
 								<li><a href="#sign-up">Sign-Up</a></li>
@@ -295,9 +296,10 @@
 			</div>
 
 			<div class="col-md-2 col-sm-4 col-xs-6 text-center">
-
-				<img class="img-responsive picsGall" src="images/speakers/zibusiso_mkhwanazi.jpg"/>
-				<h5><a href="#" data-toggle="modal">Zibusiso Mkhwanazi</a></h5>
+                <a href="#zibusiso_modal" data-toggle="modal">
+				    <img class="img-responsive picsGall" src="images/speakers/zibusiso_mkhwanazi.jpg"/>
+                </a>
+				<h5><a href="#zibusiso_modal" data-toggle="modal">Zibusiso Mkhwanazi</a></h5>
 			</div>
 			<div class="col-md-2 col-sm-4 col-xs-6 text-center">
                 <a href="#simon_modal" data-toggle="modal">
@@ -306,10 +308,10 @@
 				<h5><a href="#simon_modal" data-toggle="modal">Simon Mtsuki</a></h5>
 			</div>
 			<div class="col-md-2 col-sm-4 col-xs-6 text-center">
-                <a href="#simon_modal" data-toggle="modal">
+                <a href="#tam_modal" data-toggle="modal">
 				    <img class="img-responsive picsGall" src="images/speakers/tam_de_vries.jpg"/>
                 </a>
-				<h5><a href="#" data-toggle="modal">Tam De Vries</a></h5>
+				<h5><a href="#tam_modal" data-toggle="modal">Tam De Vries</a></h5>
 			</div>
 
 			<div class="col-md-2 col-sm-4 col-xs-6 text-center">
@@ -321,16 +323,16 @@
 		</div>
 		<div class="row news">
 			<div class="col-md-2 col-sm-4 col-xs-6 text-center">
-                <a href="#simon_modal" data-toggle="modal">
+                <a href="#bonnke_modal" data-toggle="modal">
 				    <img class="img-responsive picsGall" src="images/speakers/bonnke_shipalana.jpg"/>
                 </a>
-				<h5><a href="#" data-toggle="modal">Bonnke Shipalana</a></h5>
+				<h5><a href="#bonnke_modal" data-toggle="modal">Bonnke Shipalana</a></h5>
 			</div>
 			<div class="col-md-2 col-sm-4 col-xs-6 text-center">
-                <a href="#simon_modal" data-toggle="modal">
+                <a href="#fikile_modal" data-toggle="modal">
 				    <img class="img-responsive picsGall" src="images/speakers/fikile_mekgoe.jpg"/>
                 </a>
-				<h5><a href="#" data-toggle="modal">Fikile Mekgoe</a></h5>
+				<h5><a href="#fikile_modal" data-toggle="modal">Fikile Mekgoe</a></h5>
 			</div>
 
 			<div class="col-md-2 col-sm-4 col-xs-6 text-center">
@@ -360,16 +362,16 @@
 		</div>
         <div class="row news">
             <div class="col-md-2 col-sm-4 col-xs-6 text-center">
-                <a href="#simon_modal" data-toggle="modal">
+                <a href="#palesa_modal" data-toggle="modal">
                     <img class="img-responsive picsGall" src="images/speakers/palesa_chubisi.jpg"/>
                 </a>
-                <h5><a href="#" data-toggle="modal">Palesa Chubisi</a></h5>
+                <h5><a href="#palesa_modal" data-toggle="modal">Palesa Chubisi</a></h5>
             </div>
             <div class="col-md-2 col-sm-4 col-xs-6 text-center">
-                <a href="#simon_modal" data-toggle="modal">
+                <a href="#percy_modal" data-toggle="modal">
                     <img class="img-responsive picsGall" src="images/speakers/percy_mphaho.jpg"/>
                 </a>
-                <h5><a href="#" data-toggle="modal">Percy Mphaho</a></h5>
+                <h5><a href="#percy_modal" data-toggle="modal">Percy Mphaho</a></h5>
             </div>
             <div class="col-md-2 col-sm-4 col-xs-6 text-center">
                 <a href="#sanele_z_modal" data-toggle="modal">
@@ -382,6 +384,12 @@
                     <img class="img-responsive picsGall" src="images/speakers/pholo.png"/>
                 </a>
                 <h5><a href="#polo_modal" data-toggle="modal">Polo Leteka</a></h5>
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-6 text-center">
+                <a href="#vusi_modal" data-toggle="modal">
+                    <img class="img-responsive picsGall" src="images/speakers/vusi.png"/>
+                </a>
+                <h5><a href="#vusi_modal" data-toggle="modal">Vusi Thembekwayo</a></h5>
             </div>
         </div>
 	</div>
@@ -475,10 +483,14 @@
 			<div class="row about">
 				<div class="col-md-6">
 					<div class="about1">
-						<img class="pic1Ab" src="images/celebs/baby.jpg">
+                        <a href="#baby_modal" data-toggle="modal">
+						    <img class="pic1Ab" src="images/celebs/baby.jpg">
+                        </a>
 						<h3>Baby Cele</h3>
-						<p>A auctor mauris scelerisque eu proin nec urna quis justo adipiscing auctor ut auctor feugiat fermentum quisque eget pharetra, felis et venenatis aliquam, nulla nisi lobortis elit, acnterdum ante feugiat vitae.</p>
-					</div>
+						<p>Baby Cele is a South African actress best known for her starring role as Katlego Rathebe on
+                            the e.tv soapie Backstage, a role she played for eight years. She also played the role of
+                            Thandeka in the fourth season of the SABC1 drama series Home Affairs
+                            <a href="#baby_modal" data-toggle="modal">more</a></p></div>
 				</div>
 				<div class="col-md-6">
 					<div class="about2">
@@ -539,9 +551,12 @@
             <div class="row about">
                 <div class="col-md-6">
                     <div class="about1">
-                        <a href="#" data-toggle="modal"><img class="pic1Ab" src="images/celebs/dawn_misomi.jpg"></a>
-                        <h3>Dawn Misomi</h3>
-                        <p>Nulla consectetur ornare nibh, a auctor mauris scelerisque eu proin nec urna quis justo adipiscing auctor ut auctor feugiat fermentum quisque eget pharetra, felis et venenatis. aliquam, nulla nisi lobortis elit ac.</p>
+                        <a href="#dawn_modal" data-toggle="modal"><img class="pic1Ab" src="images/celebs/dawn_misomi.jpg"></a>
+                        <h3>Dawn Msomi</h3>
+                        <p>Her debut appearance as the funny, flirtatious gossiping Anele, on Mzansi Magic’s
+                            Inkaba, quickly made Dawn a household name. What people do not know about her
+                            though, is that acting has always been Dawn’s passion and started this at a very young
+                            age. <a href="#dawn_modal" data-toggle="modal">more.</a></p>
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -562,16 +577,24 @@
             <div class="row about">
                 <div class="col-md-6">
                     <div class="about1">
-                        <img class="pic1Ab" src="images/celebs/linda_sebenza.jpg">
+                        <a href="#linda_modal" data-toggle="modal">
+                            <img class="pic1Ab" src="images/celebs/linda_sebenza.jpg">
+                        </a>
                         <h3>Linda Sebenzo</h3>
-                        <p>A auctor mauris scelerisque eu proin nec urna quis justo adipiscing auctor ut auctor feugiat fermentum quisque eget pharetra, felis et venenatis aliquam, nulla nisi lobortis elit, acnterdum ante feugiat vitae.</p>
-                    </div>
+                        <p>Linda Sebezo (sometimes credited as Linda Sebenzo) is a South African actress, dancer, singer and director best
+                            known for her starring role as Gogo, the senile grandmother who raised Lebo (Mahlubi Kraai), in the SABC1 sitcom
+                            Gauteng Maboneng. <a href="#linda_modal" data-toggle="modal">more.</a></p></div>
                 </div>
                 <div class="col-md-6">
                     <div class="about2">
-                        <img class="pic2Ab" src="images/celebs/soweto_opera_quadro.jpg">
+                        <a href="#soweto_quadro_model" data-toggle="modal">
+                            <img class="pic2Ab" src="images/celebs/soweto_opera_quadro.jpg">
+                        </a>
                         <h3>Soweto Opera Quadro</h3>
-                        <p>Ornare nibh a auctor, mauris scelerisque eu proin nec urna nec a quis justo adipiscing auctor ut auctor feugiat fermentum quisque eget pharetra felis et venenatis aliquam, nulla nisi lobortis elit, ac eleifend nisl ante nec lorem. </p>
+                        <p>Soweto Opera Quadro was established in 2003 by a group of musicians from Soweto
+                            and its surroundings. The group consists of four singers and display lots of talent with
+                            wonderful sounds through voices and instruments.
+                            <a href="#soweto_quadro_model" data-toggle="modal">more.</a></p>
                     </div>
                 </div>
             </div>
@@ -865,7 +888,7 @@
                         <img class="img-responsive picsGall" src="images/event/dancers/thumb_show_stopaz.jpg" alt="pic1 Gallery"/>
                     </a>
                     <div class="view project_descr ">
-                        <h3><a href="#">Soweto's Finest</a></h3>
+                        <h3><a href="#">Show Stopaz</a></h3>
                     </div>
                 </div>
 
@@ -1500,6 +1523,7 @@
 				</div>
 
 				<div class="col-md-6 col-sm-12 col-xs-12 b1">
+                    <q><i>Rock Star of public Speaking</i></q>
 					<p>At the age of 17, Vusi was already ranked 1st in Africa for public speaking and went on to receive a 3rd in the world
 						at the English Speaking Union International Competition. He speaks in 4 of the 7 continents to over 350 000
 						people each year! He delivered over 200 keynotes in 2011 alone. At 25 years-old he was the youngest director
@@ -1511,7 +1535,14 @@
 						then South Africa’s only black-owned Forensic Marketing agency. By 25 Vusi Thembekwayo was an executive at one
 						of the largest consumer goods businesses in Africa. There he started, grew & managed a multi-million dollar portfolio.
 						Today at 28, he is the Managing Director of MOTIV8 Advisory – a specialist consulting and services agency & serves on the
-						board of international consulting firm Black Sheep Advisory Ltd as well as the founding Partner of Speakers BootCamp (S.A)</p>
+						board of international consulting firm Black Sheep Advisory Ltd as well as the founding Partner of Speakers BootCamp (S.A)<br><br>
+                        Today Vusi is the MD of a boutique investment and advisory firm that assists medium, large and listed businesses to achieve step-change results through their people. He has been
+                        finalist “Entrepreneur of the Year” and has won several international awards for his public speaking. Vusi is a business speaker who empowers his audience with new knowledge,
+                        research findings and tools that they can immediately apply in the businesses or careers to achieve “step-change” results. He ran a R400mln division in a R17bn multi-national
+                        where he achieved the highest EBITDA within the group and today is the youngest director of a listed company and also serves on several boards.
+                        This is what makes Vusi Thembekwayo one of the best motivational speakers and keynote speakers alive today: for business he understands the challenges of
+                        managing margins and growing market share in declining markets. He also well respected for his ability to build the most formidable business teams that deliver
+                        incredible value.</p>
 					</div>
 				</div>
         </div>
@@ -1570,7 +1601,7 @@
 	<div class="modal-body">
 		<div class="row team">
 			<div class="col-md-6 col-sm-12 col-xs-12 b1">
-				<img class="img-responsive" src="images/speakers/shoot2..jpg">
+				<img class="img-responsive" src="images/speakers/tam_de_vries.jpg">
 				<h4>Tam Devries</h4>
 				<h5>Inspirational Speaker | MC</h5>
 				<ul>
@@ -1602,7 +1633,7 @@
 	<div class="modal-body">
 		<div class="row team">
 			<div class="col-md-6 col-sm-12 col-xs-12 b1">
-				<img class="img-responsive" src="images/speakers/shoot2..jpg">
+				<img class="img-responsive" src="images/speakers/percy_mphaho.jpg">
 				<h4>Percy Mphaho</h4>
 				<h5>Motivational Speaker</h5>
 				<ul>
@@ -1617,16 +1648,16 @@
 				<p>Percy is one of the few self-motivated entrepreneurs in South Africa, all his achievements are all based on
 					hard work and giving back to rural communities.
 					Percy was born and bred in a dusty remote area in Limpopo Polokwane from a village called Londsdale,
-					he grew up looking after his parents’ cattle while working on his book whilst doing his house chores.<br>
+					he grew up looking after his parents’ cattle while working on his book whilst doing his house chores.<br><br>
 					Mr Percy Mphaho realised after passing matric that there were more opportunities to look forward to
 					outside the rural boundaries other than being a Doctor, a career his parents wished for him to take.
 					Because of lack of career guidance at high school level, he was one of those who did not apply for higher
-					education right after matric. “But God had a purpose” he says.<br>
+					education right after matric. “But God had a purpose” he says.<br><br>
 					Percy is a founder of Vision 2015, an NGO established a decade ago in year 2000 after graduating from
 					Vaal Triangle Technikon. The Mission of Vision2015 is to bridge Digital Divide in South Africa because
 					of the imbalance education system in South Africa. To date with the help of Telkom, Eskom, Heinman Publishers,
 					Alcatel SA, SABC, Vision 2015 can boast that 90% of the schools in South Africa have their signature (Vision2015)
-					because of the computers at their schools.<br>
+					because of the computers at their schools.<br><br>
 					In 2010, Percy opened Mphaho Holding Company that currently has four companies namely, Presley Info Tech (IT Company),
 					Neocomit (IT retail stores), PM Minerals (Minerals and Energy), Lim Taba Tours (Transport and Accommodation).
 					In 2012, PM minerals secured 4000 hectares of land in Waterburg Lephalale to do exploration of Coal mining to date.
@@ -1646,7 +1677,7 @@
 	<div class="modal-body">
 		<div class="row team">
 			<div class="col-md-6 col-sm-12 col-xs-12 b1">
-				<img class="img-responsive" src="images/speakers/shoot2..jpg">
+				<img class="img-responsive" src="images/speakers/palesa_chubisi.jpg">
 				<h4>Palesa Chubisi</h4>
 				<h5>Motivational Speaker | MC</h5>
 				<ul>
@@ -1670,7 +1701,14 @@
 					state president Thabo Mbeki and the current state President Jacob Zuma. The most memorable moment of her career was when
 					she covered the 10 mourning days of the first democratically elected President Nelson Mandela. She was also given the
 					opportunity to do the announcement of Dr. Mandela’s death with +3 million listeners who received the firsthand information
-					of the death of Tata which made her feel very special, boosting her level of confidence.</p>
+					of the death of Tata which made her feel very special, boosting her level of confidence.<br><br>
+                    Palesa has recently started doing television for the SABC news, and has covered the Armed Forces Day that was held in
+                    Bloemfontein earlier this year where President Jacob Zuma was the keynote speaker. During the elections period, she was
+                    also involved in the television live regional crossings from the IEC centre in the Free State Province. her goal is to go
+                    more into television now as she believes she has reached the ceiling in radio. Palesa says she would like to enhance herself
+                    as a brand, as she believes that she is already established. She currently hosts the morning current affairs show with 1.1
+                    million listeners, which has doubled from when she started, initially with a listenership of 500 000. Palesa says that she
+                    managed to lift the show and break the record of taking the show beyond the million-listenership mark.</p>
 			</div>
 		</div>
 	</div>
@@ -1695,6 +1733,7 @@
 			</div>
 
 			<div class="col-md-6 col-sm-12 col-xs-12 b1">
+                <q><i>Leadership coach</i></q>
 				<p>Sindy Mabe is a well known and respected television Personality; she is an ambassador of the South African National Blood
 					service, Sunflower fund, patron of the House of Hope, (a shelter for abused and vulnerable teenage girls) and an active
 					member of the Global Business Roundtable.<br><br>
@@ -1956,7 +1995,7 @@
 	<div class="modal-body">
 		<div class="row team">
 			<div class="col-md-6 col-sm-12 col-xs-12 b1">
-				<img class="img-responsive" src="images/speakers/shoot2..jpg">
+				<img class="img-responsive" src="images/celebs/linda_sebenza.jpg">
 				<h4>Linda Sebenzo</h4>
 				<h5>Actress | MC</h5>
 				<ul>
@@ -2382,7 +2421,7 @@
     <div class="modal-body">
         <div class="row team">
             <div class="col-md-6 col-sm-12 col-xs-12 b1">
-                <img class="img-responsive" src="images/speakers/shoot2..jpg">
+                <img class="img-responsive" src="images/speakers/nimrod.png">
                 <h4>Nimrod Nkosi</h4>
                 <h5>Actor | Producer | Presenter | Brand Ambassador | MC | Speaker</h5>
                 <ul>
@@ -2647,6 +2686,381 @@
         <button class="btn" data-dismiss="modal">Close</button>
     </div>
 </div>
+
+<div id="baby_modal" class="modal fade" tabindex="-1">
+    <div class="modal-body">
+        <div class="row team">
+            <div class="col-md-6 col-sm-12 col-xs-12 b1">
+                <img class="img-responsive" src="images/celebs/baby.jpg">
+                <h4>Baby Cele</h4>
+                <h5>Actress | Radio Personality | Motivational Speaker | MC</h5>
+                <ul>
+                    <li><a href="https://www.facebook.com/tshego.silver.9"><i class="fa fa-facebook-square"></i></a></li>
+                    <li><a href="https://za.linkedin.com/pub/tshego-mokoka/66/517/661"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="https://twitter.com/mokokatshego"><i class="fa fa-twitter" ></i></a></li>
+                    <!--<li><a href="#"><i class="fa fa-google-plus-square"></i></a></li>-->
+                </ul>
+            </div>
+
+            <div class="col-md-6 col-sm-12 col-xs-12 b1">
+
+                <!--<q><i>The #1 Inspirational Speaker, Youngest Black Self Published Author and Entreprenuer</i></q>-->
+                <p>Baby Cele is a South African actress best known for her starring role as Katlego Rathebe on
+                    the e.tv soapie Backstage, a role she played for eight years. She also played the role of
+                    Thandeka in the fourth season of the SABC1 drama series Home Affairs and has a starring
+                    role in the SABC1 sitcom My Perfect Family. She also starred as spinster housekeeper
+                    Slindlile Dludlu in the Mzansi Magic telenovela Inkaba (2012-2013) and as Gasta Cele, a
+                    traditional yet modern wife who believes certain thing should be left up to the husband,
+                    doting on her children and community, in the Mzansi Magic soap opera Zabalaza, in
+                    2013.She has had various roles in TV and stage productions. In 1998, Baby received a Best
+                    Supporting Actress nomination for her role in Not With My Gun.<br><br>
+                    Later, she won a Vita Award for Best Performance by an Actress in a Leading Role for The
+                    Game. In 1996,she won an All Africa Film Award for Most Promising Newcomer for her
+                    role in Jump the Gun. She was a cast member of the stage musical Sarafina!, performing on
+                    Broadway for two years and touring all of the American states. She also performed in the
+                    stage play Cards to rave reviews. In 2011 she played the role of Beauty in the SABC1 mini-
+                    series Shreds & Dreams, based on the 2004 play of the same name directed by Clare
+                    Stopford.<br><br>
+                    The first movie she remembers watching and loving was Scarface. Her favourite home-
+                    cooked meal is tripe, spinach and idombolo. She is inspired by people who take their jobs
+                    seriously and by looking at her two daughters every day.Baby Cele is also a radio presenter
+                    on Ukhozi FM .</p>
+            </div>
+        </div>
+    </div>
+    <div class="modal-footer">
+        <button class="btn" data-dismiss="modal">Close</button>
+    </div>
+</div>
+
+<div id="bonnke_modal" class="modal fade" tabindex="-1">
+    <div class="modal-body">
+        <div class="row team">
+            <div class="col-md-6 col-sm-12 col-xs-12 b1">
+                <img class="img-responsive" src="images/speakers/bonnke_shipalana.jpg">
+                <h4>Bonnke Shipalana</h4>
+                <h5>Inspirational Speaker | MC | TV Presenter | Radio Presenter | Life Coach</h5>
+                <ul>
+                    <li><a href="https://www.facebook.com/tshego.silver.9"><i class="fa fa-facebook-square"></i></a></li>
+                    <li><a href="https://za.linkedin.com/pub/tshego-mokoka/66/517/661"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="https://twitter.com/mokokatshego"><i class="fa fa-twitter" ></i></a></li>
+                    <!--<li><a href="#"><i class="fa fa-google-plus-square"></i></a></li>-->
+                </ul>
+            </div>
+
+            <div class="col-md-6 col-sm-12 col-xs-12 b1">
+
+                <q><i>(MR. Purpose)Inspirational Speaker</i></q>
+                <p>A graduate of the University of Port Elizabeth (now Nelson Mandela Metropolitan University),
+                    Bonnke holds a Bachelors Degree specialisation of strategic marketing and communications, brand
+                    management, trade and sales operation, innovation and new product development (Standard bank,
+                    SAB, Miller, PepsiCo and Cell C). He currently holds the position of Chief Executive Officer at the
+                    Communications Firm. <br><br>
+                    Bonnke is also a founder of Power of 1, an organisation whose mission is to bring out the leader in
+                    people. Since the age of 19, he has been challenging South Africans to know, believe and understand
+                    purpose (original intent) on earth.<br><br>
+                    His ability to tackle tough topics in a logical and easy to understand manner has proven to be
+                    popular and his messages are well accepted by you from all walks of like. His weekly email-based
+                    articles series-“build on the ordinary and expect the extraordinary”-focuses on guiding South
+                    Africans through the challenges of this world we live in.<br><br>
+                    His 30-minute radio slot Capricorn FM(Sunday 10:00 – 10:30) on one of the biggest radio stations
+                    in Limpopo- is changing and improving the lives of those who have an ear to hear.</p>
+            </div>
+        </div>
+    </div>
+    <div class="modal-footer">
+        <button class="btn" data-dismiss="modal">Close</button>
+    </div>
+</div>
+
+<div id="darren_modal" class="modal fade" tabindex="-1">
+    <div class="modal-body">
+        <div class="row team">
+            <div class="col-md-6 col-sm-12 col-xs-12 b1">
+                <img class="img-responsive" src="images/speakers/darren_august.jpg">
+                <h4>Darren August</h4>
+                <h5>Entrepreneur | Trainer | Motivational Speaker | Life Coach | Professional MC | Skill Development Facilitator</h5>
+                <ul>
+                    <li><a href="https://www.facebook.com/tshego.silver.9"><i class="fa fa-facebook-square"></i></a></li>
+                    <li><a href="https://za.linkedin.com/pub/tshego-mokoka/66/517/661"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="https://twitter.com/mokokatshego"><i class="fa fa-twitter" ></i></a></li>
+                    <!--<li><a href="#"><i class="fa fa-google-plus-square"></i></a></li>-->
+                </ul>
+            </div>
+
+            <div class="col-md-6 col-sm-12 col-xs-12 b1">
+
+                <q><i>Nobody leaves Darren’s talks uninspired</i></q>
+                <p>Darren has a unique ability to connect with audiences on various levels. Every talk is
+                    relatable, purpose driven and speaks directly to the heart of audiences. He has shared the
+                    stage with some of SA’s top names such as David Molapo, Peter Cheales
+                    (Hellopeter.com), Marks Maponyane & Vusi Thembekwayo. Darren holds a
+                    certification in Skills Development facilitation & Training, Call Centre Management,
+                    Project Management and Life Coaching. He was a finalist in the 2008 BPeSA Awards
+                    “Trainer of the year. Darren is doing exceptionally well for himself that over 7000
+                    people have attended various training programmes presented by him to date. He presents
+                    a daily radio breakfast show from 6-9am on Rainbow FM 90.7.Darren is a seasoned
+                    keynote speaker, MC, former lecture at Damelin and a corporate trainer. His three
+                    passions in life are “life, people and education. Darren August is the founder and CEO
+                    of Dazz Consulting (founded in 2009)<br><br>
+                    “We have had the privilege on a number of occasions to make use of Darren’s talents.
+                    He has inspired our team to dream and believe that they can achieve more. He engages
+                    with employees on all levels and his passion is incomparable. World class!” - L Peter
+                    (MSD South Africa)</p>
+            </div>
+        </div>
+    </div>
+    <div class="modal-footer">
+        <button class="btn" data-dismiss="modal">Close</button>
+    </div>
+</div>
+
+
+<div id="dawn_modal" class="modal fade" tabindex="-1">
+    <div class="modal-body">
+        <div class="row team">
+            <div class="col-md-6 col-sm-12 col-xs-12 b1">
+                <img class="img-responsive" src="images/celebs/dawn_misomi.jpg">
+                <h4>Dawn Msomi</h4>
+                <h5>Actress | Motivational Speaker | MC</h5>
+                <ul>
+                    <li><a href="https://www.facebook.com/tshego.silver.9"><i class="fa fa-facebook-square"></i></a></li>
+                    <li><a href="https://za.linkedin.com/pub/tshego-mokoka/66/517/661"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="https://twitter.com/mokokatshego"><i class="fa fa-twitter" ></i></a></li>
+                    <!--<li><a href="#"><i class="fa fa-google-plus-square"></i></a></li>-->
+                </ul>
+            </div>
+
+            <div class="col-md-6 col-sm-12 col-xs-12 b1">
+
+                <!--<q><i>Nobody leaves Darren’s talks uninspired</i></q>-->
+                <p>Her debut appearance as the funny, flirtatious gossiping Anele, on Mzansi Magic’s
+                    Inkaba, quickly made Dawn a household name. What people do not know about her
+                    though, is that acting has always been Dawn’s passion and started this at a very young
+                    age.
+                    This humble and extraordinary actress hails from Durban, where she studied Drama at
+                    Technikon Natal. During her tenure at Natal Technikon, she starred in many stage plays,
+                    including Peace in The Valley, which debuted at the Playhouse Theatre in 2000, and was
+                    directed by one of KZN’s most acclaimed playwrights, Jerry Pooe. Working with such
+                    phenomenal directors, exposed Dawn’s many talents, in acting, singing and dancing. Her
+                    talents don’t end there. Dawn has experience as a radio actress,motivational speaker,
+                    MC and an indigenous musician .<br><br>
+                    As an ambitious young woman, she joined the corporate world for a brief period, but
+                    soon realized she would rather be on stage and back to what she does best, acting and
+                    entertainment. She landed a role in Mzansi Magic’s INKABA in 2012.
+                    Since then, Dawn has also worked tirelessly to make her name in the industry. In 2012, Dawn embarked on a 3 day tour-motivating schools in Northern KZN and she
+                    was well received by both teachers and students. She performed her indigenous music at the Land Reform exhibition in NASREC in August 2013, and was invited to
+                    perform at The Plat4orm theatre in Bezuidenhoed in Johannesburg, for Woman’s month in 2013, and shot a short film called Black Silence, in November 2013.<br><br>
+                    Dawn was recalled to perform her indigenous music, at The Land Reform Exhibition in February 2014 this time held at the Event s Exhibition Center in Pretoria. 2014
+                    has been a very busy year for Dawn, as she has also been involved in 2 short films called Untitled and Hlezephi, which were directed by Rethabile Mathobi and Tony
+                    Miyambo. These short films were part of the Youth Film Project called Mandela's children.
+                    Dawn has also landed a role in a coca cola commercial, which is running currently. In July 2014, Dawn was invited to be part of the cast of Eclipsed joining four other
+                    phenomenal woman, the production was directed by Warona Seane and had a 3 week run at the Soweto Theatre.
+                    Dawn has been invited to be part of the cast of Uzalo as one of the lead characters, Uzalo is produced by Duma ka Ndlovu and Gugu Zuma (Ncube), it is going to be
+                    aired on SABC1.</p>
+            </div>
+        </div>
+    </div>
+    <div class="modal-footer">
+        <button class="btn" data-dismiss="modal">Close</button>
+    </div>
+</div>
+
+<div id="fikile_modal" class="modal fade" tabindex="-1">
+    <div class="modal-body">
+        <div class="row team">
+            <div class="col-md-6 col-sm-12 col-xs-12 b1">
+                <img class="img-responsive" src="images/speakers/fikile_mekgoe.jpg">
+                <h4>Fikile Mekgoe</h4>
+                <h5>Motivational Speaker | MC</h5>
+                <ul>
+                    <li><a href="https://www.facebook.com/tshego.silver.9"><i class="fa fa-facebook-square"></i></a></li>
+                    <li><a href="https://za.linkedin.com/pub/tshego-mokoka/66/517/661"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="https://twitter.com/mokokatshego"><i class="fa fa-twitter" ></i></a></li>
+                    <!--<li><a href="#"><i class="fa fa-google-plus-square"></i></a></li>-->
+                </ul>
+            </div>
+
+            <div class="col-md-6 col-sm-12 col-xs-12 b1">
+
+                <!--<q><i>Nobody leaves Darren’s talks uninspired</i></q>-->
+                <p>The perfect way to describe Fikile is - the strong and excellent woman who loves God
+                    more than anything. A virtuous wife to her loving husband and she is impacting the lives
+                    of others. She’s a success, a global fire brand, an extraordinary resource and an
+                    ambassador of change. She came for a mission and her purpose is very clear... “To
+                    touch and change lives...” And that is very visible as South Africa knows her as a Lady
+                    with a big heart. She has partnered with the public, private and government sector to
+                    bring a change. Given inspirational talks in different sectors in South Africa, Judged
+                    Leadership programs, pageants and Speech Contests.<br><br>
+                    Fikile has touch touched so many lives through her speaking engagement. She has been
+                    speaking in different events and also has graced many occasions as an exceptional MC.
+                    Not only that – she has been part of so many seminars as her passion is to build an
+                    develop others. The need for women development she saw as she travels around South
+                    Africa to conduct seminars made her start her monthly seminar called – Dynamic You
+                    Breakfast Session With Fikile Mekgoe” And these sessions have attracted many women
+                    from all walks of life – as they all want to hear her deliver her keynote speeches.<br><br>
+                    Fikile lives to leave a legacy and yes she is that beauty queen who won a title and used
+                    her resources to serve her country. And the best achievement she has achieved – is to
+                    accept Jesus Christ as her Lord and saviour. That day marked the beginning of her
+                    Devine life on earth!</p>
+            </div>
+        </div>
+    </div>
+    <div class="modal-footer">
+        <button class="btn" data-dismiss="modal">Close</button>
+    </div>
+</div>
+
+<div id="gil_modal" class="modal fade" tabindex="-1">
+    <div class="modal-body">
+        <div class="row team">
+            <div class="col-md-6 col-sm-12 col-xs-12 b1">
+                <img class="img-responsive" src="images/speakers/gil_oved.jpg">
+                <h4>Gil Oved</h4>
+                <h5>Business Speaker | Co-Founder TCC | Dragons’Den SA</h5>
+                <ul>
+                    <li><a href="https://www.facebook.com/tshego.silver.9"><i class="fa fa-facebook-square"></i></a></li>
+                    <li><a href="https://za.linkedin.com/pub/tshego-mokoka/66/517/661"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="https://twitter.com/mokokatshego"><i class="fa fa-twitter" ></i></a></li>
+                    <!--<li><a href="#"><i class="fa fa-google-plus-square"></i></a></li>-->
+                </ul>
+            </div>
+
+            <div class="col-md-6 col-sm-12 col-xs-12 b1">
+
+                <!--<q><i>Nobody leaves Darren’s talks uninspired</i></q>-->
+                <p>Serial entrepreneur, Gil Oved believes the day he can define his business is the day he
+                    will be out of business. Co-founder and group co-CEO of The Creative Counsel, Oved’s
+                    mantra ‘Passion fueled optimism’ has seen him soar to great success in his business
+                    career. At 15 Gil Oved began his career as an actor, starring in a television series, “What
+                    If,” and then, on the shoulders of that success, went on to present a youth magazine
+                    show, Zap Mag for eight years.<br><br>
+                    Although acting was a passion, he soon found that he had a greater interest in working
+                    behind the scenes to produce inserts for the show. With entrepreneurial spirit and desire
+                    to work in a creative medium he founded his first company, a TV production company
+                    called GO Productions. He later founded Jewazi Productions with a partner in the mind
+                    nineties, during what he describes as “an incredible time in South Africa”.<br><br>
+                    Although he loved what he was doing, he was hungry for something more, so he and his
+                    high school friend Ran Neu-Ner started an online stockbroking portal with the aim of
+                    becoming Internet millionaires. Unfortunately, their timing was a somewhat off and their
+                    investor went under when the dotcom bubble burst. They were left looking for a new
+                    venture into which to direct their energy and passion.<br><br>
+                    Oved completed a B.Com in Marketing cum laude and a CFA, stacking up the credentials effectively to run and promote his next business venture. The opportunity came in the
+                    form of a gap that he and Neu-Ner identified in the below-the-line activations market and were determined to fill.
+                    In 2001, they started The Creative Counsel. Oved and Neu-Ner's entrepreneurial spirit was tested but never stifled by financial challenges and the challenges of breaking into a
+                    new market. In this business, Oved was able to give expression to all his passions – business, marketing and producing. Even his acting skills came in handy when defining how
+                    to appeal to an audience and developing training methodologies for their activations.
+                    Today, thirteen years later, The Creative Counsel is South Africa's leading activations agency and ranks as the top Marketing , Media and Advertising group in the country. The
+                    company has an annual turnover of R500 million, and Oved and Neu-Ner serve as Group Co- CEOs.
+                    Oved focuses on the bigger picture and the small details. He's a Leo, loves classical movies, globetrotting, is a self-confessed foodie and vigorously follows American politics.</p>
+            </div>
+        </div>
+    </div>
+    <div class="modal-footer">
+        <button class="btn" data-dismiss="modal">Close</button>
+    </div>
+</div>
+
+<div id="soweto_quadro_model" class="modal fade" tabindex="-1">
+    <div class="modal-body">
+        <div class="row team">
+            <div class="col-md-6 col-sm-12 col-xs-12 b1">
+                <img class="img-responsive" src="images/celebs/soweto_opera_quadro.jpg">
+                <h4>Soweto Opera Quadro</h4>
+                <h5>Musicians</h5>
+                <ul>
+                    <li><a href="https://www.facebook.com/tshego.silver.9"><i class="fa fa-facebook-square"></i></a></li>
+                    <li><a href="https://za.linkedin.com/pub/tshego-mokoka/66/517/661"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="https://twitter.com/mokokatshego"><i class="fa fa-twitter" ></i></a></li>
+                    <!--<li><a href="#"><i class="fa fa-google-plus-square"></i></a></li>-->
+                </ul>
+            </div>
+
+            <div class="col-md-6 col-sm-12 col-xs-12 b1">
+
+                <q><i>Through singing we have a better nation</i></q>
+                <p>Soweto Opera Quadro was established in 2003 by a group of musicians from Soweto
+                    and its surroundings. The group consists of four singers and display lots of talent with
+                    wonderful sounds through voices and instruments.
+                    Soweto Opera Quadro repertoire ranges from classic, opera, classical jazz, African, afro
+                    pop to Christmas music. It has gained a good exposure and publicity from performing at
+                    festivals, concerts, corporate gigs, schools, TV (weekend live and kids news), radio
+                    (classic fm and Lesedi fm), magazines and newspapers.</p></div>
+        </div>
+    </div>
+    <div class="modal-footer">
+        <button class="btn" data-dismiss="modal">Close</button>
+    </div>
+</div>
+
+<div id="zibusiso_modal" class="modal fade" tabindex="-1">
+    <div class="modal-body">
+        <div class="row team">
+            <div class="col-md-6 col-sm-12 col-xs-12 b1">
+                <img class="img-responsive" src="images/speakers/zibusiso_mkhwanazi.jpg">
+                <h4>Zibusiso Mkhwanazi</h4>
+                <h5>Motivational Speaker | Business Speaker</h5>
+                <ul>
+                    <li><a href="https://www.facebook.com/tshego.silver.9"><i class="fa fa-facebook-square"></i></a></li>
+                    <li><a href="https://za.linkedin.com/pub/tshego-mokoka/66/517/661"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="https://twitter.com/mokokatshego"><i class="fa fa-twitter" ></i></a></li>
+                    <!--<li><a href="#"><i class="fa fa-google-plus-square"></i></a></li>-->
+                </ul>
+            </div>
+
+            <div class="col-md-6 col-sm-12 col-xs-12 b1">
+
+                <!--<q><i>Through singing we have a better nation</i></q>-->
+                <p>AVATAR CEO Zibusiso Mkhwanazi has been in the marketing industry since 2001 and has chaired boards of various agencies.
+                    Zibusiso is highly regarded by the South African business fraternity and profiled several times as an up and coming
+                    business leader to watch. Zibusiso has been a guest speaker at many business schools including Yale, Gibs, Wits
+                    and Henley on leadership and entrepreneurship. <br><br>The young dynamic entrepreneur has won several awards and accolades,
+                    including being named Top ICT individual in Africa, top 25 media game changes of 2012 and World Economic Forum Young
+                    Global Leader. He has attended management programs at Yale and Harvard University. Zibusiso is a Trustee of the National
+                    Economic and Education Trust (NEET), which has provided over 4000 bursaries to under privileged ICT students and
+                    the founder of David’s League, a Christian based business mentorship program designed to uplift and empower young
+                    entrepreneurs from disadvantaged backgrounds in their business journeys. Zibusiso has a National Diploma in Information
+                    Technology and Diploma in Corporate Law both from the University of Johannesburg</p></div>
+        </div>
+    </div>
+    <div class="modal-footer">
+        <button class="btn" data-dismiss="modal">Close</button>
+    </div>
+</div>
+
+<div id="soweto_quadro_model" class="modal fade" tabindex="-1">
+    <div class="modal-body">
+        <div class="row team">
+            <div class="col-md-6 col-sm-12 col-xs-12 b1">
+                <img class="img-responsive" src="images/celebs/soweto_opera_quadro.jpg">
+                <h4>Soweto Opera Quadro</h4>
+                <h5>Musicians</h5>
+                <ul>
+                    <li><a href="https://www.facebook.com/tshego.silver.9"><i class="fa fa-facebook-square"></i></a></li>
+                    <li><a href="https://za.linkedin.com/pub/tshego-mokoka/66/517/661"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="https://twitter.com/mokokatshego"><i class="fa fa-twitter" ></i></a></li>
+                    <!--<li><a href="#"><i class="fa fa-google-plus-square"></i></a></li>-->
+                </ul>
+            </div>
+
+            <div class="col-md-6 col-sm-12 col-xs-12 b1">
+
+                <q><i>Through singing we have a better nation</i></q>
+                <p>Soweto Opera Quadro was established in 2003 by a group of musicians from Soweto
+                    and its surroundings. The group consists of four singers and display lots of talent with
+                    wonderful sounds through voices and instruments.
+                    Soweto Opera Quadro repertoire ranges from classic, opera, classical jazz, African, afro
+                    pop to Christmas music. It has gained a good exposure and publicity from performing at
+                    festivals, concerts, corporate gigs, schools, TV (weekend live and kids news), radio
+                    (classic fm and Lesedi fm), magazines and newspapers.</p></div>
+        </div>
+    </div>
+    <div class="modal-footer">
+        <button class="btn" data-dismiss="modal">Close</button>
+    </div>
+</div>
+
+
 
 
 <script src="js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
