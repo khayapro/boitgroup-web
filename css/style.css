@@ -823,12 +823,12 @@ border: none;
 	border-radius:4px;
 	float:left;
 	list-style:none;
-	padding:10px;
+	/*padding:10px;*/
 	background:#2f2f2f;
 	box-shadow: 0px 2px 0px 0px #000;
-	padding-right: 18px;
+	/*padding-right: 18px;
 	padding-left: 18px;
-	padding-top:11px;
+	padding-top:11px;*/
 }
 .cBtn ul li:last-child{
 	margin-right: 0;
@@ -846,7 +846,7 @@ border: none;
 	cursor:pointer;
 	background:#883c88;
 	color:#fff;
-	box-shadow: 0px 2px 0px 0px #179abf;
+	box-shadow: 0px 2px 0px 0px #883c70;
 }
 /**/
 
@@ -910,6 +910,7 @@ border: none;
 /**/
 .pretty{
 	margin-top: 45px;
+    margin-bottom: 45px;
 }
 .pretty img{
 	border-radius:3px;
@@ -1347,8 +1348,8 @@ textarea {
 	font-weight: 700;
 }
 .forma .cBtn .send{
-	box-shadow: 0px 2px 0px 0px #179abf;
-	background:#1fcdff ;
+	box-shadow: 0px 2px 0px 0px #883b70;
+	background:#883c88 ;
 }
 .forma .cBtn .send:hover{
 	background:#2f2f2f;
@@ -1877,7 +1878,7 @@ textarea {
 	padding-right:0;
 }
 #downMenu li a:hover{
-	color:#6d6d6d;
+	color:#883c88;
 }
 .downLine input{
 	max-width: 95px;
@@ -1894,6 +1895,12 @@ textarea {
 .dm{
 	margin-top: 29px;
 }
+
+.footer-text {
+    text-align: left;
+    font-size: 10px;
+}
+
 /**/
 /*responsive*/
 @media screen and (max-width: 1190px){
@@ -2289,5 +2296,73 @@ div.box .button
     width: 150px;
 }
 
+/* Submit button CSS*/
 
+.forma .cBtn a{
+    font-family: 'Roboto', 'sans-serif';
+    font-weight: 700;
+    font-size:13px;
+    color:#fff;
+}
 
+.forma .cBtn ul{
+    margin-left: -15px;
+    margin-top: 6px;
+    padding-left:0;
+    margin-bottom: 0;
+}
+.forma .cBtn ul i{
+    padding-right: 10px;
+}
+.forma .cBtn .clear , .cBtn .send{
+    margin-bottom: 0;
+    margin-top: 4px;
+    padding: 10px;
+    padding-right: 17px;
+    padding-left: 17px
+
+}
+.forma .cBtn .clear  a, .cBtn .send a{
+    font-family: 'Roboto', 'sans-serif';
+    font-weight: 700;
+}
+.forma .cBtn .send{
+    box-shadow: 0px 2px 0px 0px #883b70;
+    background:#883c88 ;
+}
+.forma .cBtn .send:hover{
+    background:#2f2f2f;
+    box-shadow: 0px 2px 0px 0px #000 ;
+}
+
+.cBtn ul li input{
+    margin-bottom: 15px;
+    margin-right: 10px;
+    border-radius:4px;
+    float:left;
+    list-style:none;
+    padding:10px;
+    background:transparent;
+    box-shadow: 0px 2px 0px 0px mediumpurple;
+    padding-right: 18px;
+    padding-left: 18px;
+    padding-top:11px;
+}
+.cBtn ul li input:last-child{
+    margin-right: 0;
+}
+.cBtn ul li input{
+    text-decoration:none;
+    text-transform:uppercase;
+    color:#fff;
+    font-size: 13px;
+    text-align:center;
+    font-family: 'Roboto', 'sans-serif';
+    font-weight: 700;
+}
+.cBtn ul li input:hover{
+    cursor:pointer;
+    background:#883c88;
+    color:#fff;
+    box-shadow: 0px 2px 0px 0px #883c70;
+}

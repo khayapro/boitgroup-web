@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../Boit Old Website/Boit Old Website.iml" filepath="$PROJECT_DIR$/../Boit Old Website/Boit Old Website.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Boit Talent Management.iml" filepath="$PROJECT_DIR$/.idea/Boit Talent Management.iml" />
     </modules>
   </component>

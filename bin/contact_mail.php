@@ -3,23 +3,23 @@
 	
 
 	if($_POST['name']!='nope'){
-		$messageBody .= '<p>Visitor: ' . $_POST["name"] . '</p>' . "\n";
-		$messageBody .= '<br>' . "\n";
+		$messageBody .= 'Visitor: ' . $_POST["name"] . '' . "\n";
+		$messageBody .= '' . "\n";
 	}
 	if($_POST['email']!='nope'){
-		$messageBody .= '<p>Email Address: ' . $_POST['email'] . '</p>' . "\n";
-		$messageBody .= '<br>' . "\n";
+		$messageBody .= 'Email Address: ' . $_POST['email'] . '' . "\n";
+		$messageBody .= '' . "\n";
 	}else{
 		$headers = '';
 	}
 	
 	if($_POST['phone']!='nope'){		
-		$messageBody .= '<p>Phone Number: ' . $_POST['phone'] . '</p>' . "\n";
-		$messageBody .= '<br>' . "\n";
+		$messageBody .= 'Phone Number: ' . $_POST['phone'] . '' . "\n";
+		$messageBody .= '' . "\n";
 	}	
 	
 	if($_POST['message']!='nope'){
-		$messageBody .= '<p>Message: ' . $_POST['message'] . '</p>' . "\n";
+		$messageBody .= 'Message: ' . $_POST['message'] . '' . "\n";
 	}
 	
 	if($_POST["stripHTML"] == 'true'){
@@ -31,7 +31,7 @@
 	$header = array (
 		'From'  	=> 'info@boitent.co.za',
 		'To'		=> $to,
-		'Subject' 	=>  'A message from your site visitor ' . $_POST["name"]
+		'Subject' 	=>  'CONTACT FORM: Message from a visitor on your site: name -  ' . $_POST["name"]
 	);
 	
 	$auth = array (
@@ -50,6 +50,7 @@
  	 	 echo("<p>" . $mail->getMessage() . "</p>");
  	 } else {
   		 echo("<p>Message successfully sent!</p>");
+        return;
  	 }
 	
 ?>
