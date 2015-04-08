@@ -1299,7 +1299,7 @@ textarea:focus{
 	width:380px;
 }
 
-textarea {
+.forma textarea {
 	border-radius:4px;
 	padding-top:10px;
 	padding-bottom:10px;
