@@ -2296,6 +2296,11 @@ div.box .button
     width: 150px;
 }
 
+.sponsor img {
+    width: 150px;
+    height: 146px;
+}
+
 /* Submit button CSS*/
 
 .forma .cBtn a{
