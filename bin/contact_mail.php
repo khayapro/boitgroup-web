@@ -32,10 +32,10 @@ if($_POST['message']!='nope'){
     $messageBody = strip_tags($messageBody);
 }*/
 
-$to = 'info@boittm.co.za';
+$to = 'tumi@boitgroup.co.za';
 
 $header = array (
-    'From'  	=> 'info@boittm.co.za',
+    'From'  	=> 'tumi@boitgroup.co.za',
     'To'		=> $to,
     'Subject' 	=>  'A message from your site visitor : ' . $_POST["name"]
 );
@@ -43,7 +43,7 @@ $header = array (
 $auth = array (
     'auth'	=> true,
     'host'	=> 'Mail.boittm.co.za',
-    'username' => 'info@boittm.co.za',
+    'username' => 'tumi@boitgroup.co.za',
     'password' => 'Pl@ys#2BoiT'
 );
 

@@ -65,10 +65,10 @@ if($_POST['booking_description']!='nope'){
     $messageBody = strip_tags($messageBody);
 }*/
 
-$to = 'bookings@boittm.co.za';
+$to = 'tumi@boitgroup.co.za';
 
 $header = array (
-    'From'  	=> 'bookings@boittm.co.za',
+    'From'  	=> 'tumi@boitgroup.co.za',
     'To'		=> $to,
     'Subject' 	=>  'A booking request from your site visitor:  ' . $_POST["fullname"]
 );
@@ -76,7 +76,7 @@ $header = array (
 $auth = array (
     'auth'	=> true,
     'host'	=> 'Mail.boittm.co.za',
-    'username' => 'bookings@boittm.co.za',
+    'username' => 'tumi@boitgroup.co.za',
     'password' => 'Pl@ys#2BoiT'
 );
 
