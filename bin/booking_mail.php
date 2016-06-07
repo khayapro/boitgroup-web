@@ -68,16 +68,16 @@ if($_POST['booking_description']!='nope'){
 $to = 'tumi@boitgroup.co.za';
 
 $header = array (
-    'From'  	=> 'tumi@boitgroup.co.za',
+    'From'  	=> 'to@domain.co.za',
     'To'		=> $to,
     'Subject' 	=>  'A booking request from your site visitor:  ' . $_POST["fullname"]
 );
 
 $auth = array (
     'auth'	=> true,
-    'host'	=> 'Mail.boittm.co.za',
-    'username' => 'tumi@boitgroup.co.za',
-    'password' => 'Pl@ys#2BoiT'
+    'host'	=> 'Mail.domain.co.za',
+    'username' => 'username@domain.co.za',
+    'password' => 'password'
 );
 
 

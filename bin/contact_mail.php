@@ -32,19 +32,19 @@ if($_POST['message']!='nope'){
     $messageBody = strip_tags($messageBody);
 }*/
 
-$to = 'tumi@boitgroup.co.za';
+$to = 'to@domain.co.za';
 
 $header = array (
-    'From'  	=> 'tumi@boitgroup.co.za',
+    'From'  	=> 'from@domain.co.za',
     'To'		=> $to,
     'Subject' 	=>  'A message from your site visitor : ' . $_POST["name"]
 );
 
 $auth = array (
     'auth'	=> true,
-    'host'	=> 'Mail.boittm.co.za',
-    'username' => 'tumi@boitgroup.co.za',
-    'password' => 'Pl@ys#2BoiT'
+    'host'	=> 'Mail.domain.co.za',
+    'username' => 'username@domain.co.za',
+    'password' => 'password'
 );
 
 

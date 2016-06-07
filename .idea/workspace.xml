@@ -2,27 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b04020e0-ecaa-4eb0-9178-2ec878f97f08" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/clients/AfricanFoundation.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/sponsored/Gem Group Logo.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/sponsored/KRAAL PROFILE FINAL-2.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/sponsored/PBMA Logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/sponsored/arbalest.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/sponsored/izani logo.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/sponsored/kitchen.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/sponsored/kk.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/sponsored/kwaLechaba.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/sponsored/wheelz.jpg" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/images/bgTop.psd" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/images/line7Bg.psd" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/images/picTeam/Untitled-1.psd" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/images/picTeam/Untitled-2.psd" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/images/picTeam/picT1.psd" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/booking_mail.php" afterPath="$PROJECT_DIR$/bin/booking_mail.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/contact_mail.php" afterPath="$PROJECT_DIR$/bin/contact_mail.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Boit Talent Management.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -89,8 +73,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.47712418">
-              <caret line="1491" column="10" selection-start-line="1491" selection-start-column="10" selection-end-line="1491" selection-end-column="10" />
+            <state vertical-scroll-proportion="0.5273109">
+              <caret line="1493" column="0" selection-start-line="1493" selection-start-column="0" selection-end-line="1493" selection-end-column="0" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1070,7 +1054,7 @@
       <workItem from="1444827907904" duration="951000" />
       <workItem from="1446313867502" duration="1396000" />
       <workItem from="1446452995375" duration="592000" />
-      <workItem from="1456905876863" duration="1075000" />
+      <workItem from="1456905876863" duration="1531000" />
     </task>
     <task id="LOCAL-00001" summary="updating speakers and celebs bio...">
       <created>1424718068047</created>
@@ -1088,7 +1072,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="342755000" />
+    <option name="totallyTimeSpent" value="343211000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="45" y="-4" width="1321" height="772" extended-state="6" />
@@ -1101,7 +1085,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977098" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21898928" sideWeight="0.49413604" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19295558" sideWeight="0.49413604" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13604379" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1698,8 +1682,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.47712418">
-          <caret line="1491" column="10" selection-start-line="1491" selection-start-column="10" selection-end-line="1491" selection-end-column="10" />
+        <state vertical-scroll-proportion="0.5273109">
+          <caret line="1493" column="0" selection-start-line="1493" selection-start-column="0" selection-end-line="1493" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
